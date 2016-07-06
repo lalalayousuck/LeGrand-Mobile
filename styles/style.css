@@ -1,5 +1,5 @@
 @font-face {
-	src: url("/fonts/proximanovaregular.ttf");
+	src: "/fonts/proximanovaregular.ttf";
 	font-family: "Proxima Nova";
 }
 
@@ -7,11 +7,12 @@
 	font-family: "Proxima Nova";
 	box-sizing: border-box;
 	color: #333333;
+	margin: 0;
 }
 
 .container {
+	width: 320px;
 	margin: 0 auto;
-	padding: 0 10px;
 }
 
 .p-abouttext {
@@ -23,30 +24,37 @@
   background-color: #fff;
  	background-image: url("https://improvemedia3-st.cdn.ngenix.net/uploads/upload/file/47/p-background.png");
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center bottom;
+  padding: 0 0 1px;
 }
 
-
-
 .p-switchers-item {
-  width: 55px;
+  width: 56px;
   margin: 0 10px;
   display: inline-block;
-  cursor: pointer; }
+  cursor: pointer; 
+}
+
+.p-switches-item:last-child {
+	margin: 0;
+}
 
 .p-hero-title {
   color: #333333;
   text-align: center;
   font-size: 22px;
-  font-weight: bold; }
+  font-weight: bold; 
+  margin: 40px 0 0;
+}
 
 .p-hero-text {
-  margin-top: 18px;
+  margin: 15px 0;
   color: #666666;
   text-align: center;
   line-height: 12px;
   word-spacing: 4px; 
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .p-hero-btn {
@@ -55,51 +63,9 @@
   color: white;
   background-color: #bd302a;
   border-radius: 5px;
-  margin: 45px auto;
+  margin: 30px auto;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 16px;
 	line-height: 44px;
 }
 
-.p-hero-socials {
-	height: 107px;
-	background-color: #f4f4f4;
-	text-align: center;
-}
-
-.p-socials-text {
-	margin: 25px 0;
-}
-
-.p-socials-btn {
-	width: 80px;
-	height: 37px;
-	border-radius: 3px;
-	background-color: #475e93;
-	margin: 20px 10px;
-	display: inline-block;
-
-}
-
-.p-socials-sharenum {
-	float: right;
-	color: white;
-	margin: 10px 20px 0 0;
-	font-size: 13px;
-}
-
-.p-socials-sharenum:before {
-	content: "";
-	display: block;
-	width: 2px;
-	height: 10px;
-	background-color: white;
-	position: absolute;
-	margin: 3px -9px;
-}
-
-.p-socials-icon {
-	float: left;
-	margin: 0 15px;
-	vertical-align: middle;
-}
