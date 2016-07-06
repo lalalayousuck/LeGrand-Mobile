@@ -1,0 +1,68 @@
+@font-face {
+	src: url("/fonts/proximanovaregular.ttf");
+	font-family: "Proxima Nova";
+}
+
+.body {
+	font-family: "Proxima Nova";
+	box-sizing: border-box;
+	color: #333333;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.p-abouttext {
+	padding: 0 25px;
+}
+
+.p-hero {
+	text-align: center;
+  background-color: #fff;
+ 	background-image: url("https://improvemedia3-st.cdn.ngenix.net/uploads/upload/file/47/p-background.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.p-switchers {
+  margin: 30px auto; }
+
+.p-switchers-item {
+  width: 55px;
+  margin: 0 10px;
+  display: inline-block;
+  cursor: pointer; }
+
+.p-hero-title {
+  color: #333333;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold; }
+
+.p-hero-text {
+  margin-top: 18px;
+  color: #666666;
+  text-align: center;
+  line-height: 12px;
+  word-spacing: 4px; 
+  font-size: 11px;
+}
+
+.p-hero-btn {
+  width: 400px;
+  height: 44px;
+  color: white;
+  background-color: #bd302a;
+  border-radius: 5px;
+  margin: 45px auto;
+  cursor: pointer;
+  font-size: 15px;
+	line-height: 44px;
+}
+
+.p-hero-socials {
+	height: 107px;
+	background-color: 
+}
