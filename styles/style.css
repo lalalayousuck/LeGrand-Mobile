@@ -15,8 +15,10 @@
 	margin: 0 auto;
 }
 
-.p-abouttext {
-	padding: 0 25px;
+.p-gallery-2,
+.p-gallery-3,
+.p-gallery-4 {
+	display: none;
 }
 
 .p-hero {
@@ -29,32 +31,33 @@
   padding: 0 0 1px;
 }
 
-.p-switchers-item {
-  width: 56px;
-  margin: 0 10px;
-  display: inline-block;
-  cursor: pointer; 
+.p-switchers {
+	margin: -13px auto 0;
 }
 
-.p-switches-item:last-child {
-	margin: 0;
+.p-switchers-item {
+  width: 62px;
+  margin: 0 7px;
+  display: inline-block;
+  cursor: pointer; 
 }
 
 .p-hero-title {
   color: #333333;
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bold; 
-  margin: 40px 0 0;
+  margin: 32px 0 0;
+  word-spacing: 2px;
 }
 
 .p-hero-text {
-  margin: 15px 0;
+  margin: 7px 0;
   color: #666666;
   text-align: center;
-  line-height: 12px;
+  line-height: 16px;
   word-spacing: 4px; 
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .p-hero-btn {
@@ -62,8 +65,8 @@
   height: 44px;
   color: white;
   background-color: #bd302a;
-  border-radius: 5px;
-  margin: 30px auto;
+  border-radius: 3px;
+  margin: 26px auto;
   cursor: pointer;
   font-size: 16px;
 	line-height: 44px;
