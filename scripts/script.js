@@ -1,5 +1,22 @@
 $(document).ready(function(){
 
+	
+	var chosenPic = 0;
+	setSliderElements();
+	
+	function setSliderElements (){
+		var galleries = galleryURL.gallery1;
+
+		for (var i=0; i<galleries.length; i++) {
+			var currentGallery = $('.p-gallery-'+(i+1));
+			for (var j=0; j<galleries[i].length; j++) {
+				var galleryElem = $('<li><div class="p-gallery-pic" style="background-image: url(' + galleries[i][j] + '")></div></li>');
+
+				currentGallery.find(".slides").append(galleryElem);
+			}
+		}
+	}
+	
 
   $('.flexslider').flexslider({
     animation: "slide",
