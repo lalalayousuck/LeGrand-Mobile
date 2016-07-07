@@ -21,6 +21,12 @@
 	display: none;
 }
 
+.p-gallery-pic {
+	height: 220px;
+	width: 100%;
+	background-size: cover;
+}
+
 .p-hero {
 	text-align: center;
   background-color: #fff;
@@ -32,7 +38,7 @@
 }
 
 .p-switchers {
-	margin: -13px auto 0;
+	margin: -7px auto 0;
 }
 
 .p-switchers-item {
@@ -60,7 +66,7 @@
   font-size: 13px;
 }
 
-.p-hero-btn {
+.p-hero-button {
   width: 280px;
   height: 44px;
   color: white;
@@ -72,3 +78,35 @@
 	line-height: 44px;
 }
 
+.p-gallery .flex-control-nav {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.p-gallery .flex-control-nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 7px;
+}
+
+.p-gallery .flex-control-paging li a {
+	width: 7px;
+  height: 7px;
+  display: block;
+  background: #dadada;
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+}
+
+.p-gallery .flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.p-gallery .flex-control-paging li a.flex-active {
+  background: #bd302a;
+  cursor: default;
+}
