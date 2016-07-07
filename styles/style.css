@@ -15,10 +15,23 @@
 	margin: 0 auto;
 }
 
+.p-galleries {
+	height: 260px;
+	position: relative;
+}
+
+.p-gallery {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
 .p-gallery-2,
 .p-gallery-3,
 .p-gallery-4 {
-	display: none;
+	opacity: 0;
+	-webkit-backface-visibility: hidden
 }
 
 .p-gallery-pic {
@@ -38,7 +51,7 @@
 }
 
 .p-switchers {
-	margin: -7px auto 0;
+	margin: 14px auto;
 }
 
 .p-switchers-item {
@@ -46,6 +59,10 @@
   margin: 0 7px;
   display: inline-block;
   cursor: pointer; 
+}
+
+.p-switchers-item:focus {
+	border: none;
 }
 
 .p-hero-title {
